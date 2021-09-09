@@ -1,9 +1,5 @@
 import sys
-import os
 import numpy as np
-print(sys.path)
-sys.path.append(os.pardir)
-print(sys.path)
 sys.path.append('/workspace/DL_Study/Deep_Learning_from_Scratch_1/DLfromScratch')
 from common.functions import softmax, cross_entropy_error
 from common.gradient import numerical_gradient
