@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from text_preprocess import preprocess
 from text_create_co_matrix import create_co_matrix
 from util_ppmi import ppmi
