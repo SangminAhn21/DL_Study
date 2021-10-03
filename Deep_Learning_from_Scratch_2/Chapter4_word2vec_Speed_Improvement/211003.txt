@@ -1,0 +1,5 @@
+chapter3, chapter4 정리
+chapter3: https://quartz-street-bad.notion.site/Chapter-3-word2vec-79ccfeac796f467793aa0859f601ce65
+(complete)
+chapter4: https://quartz-street-bad.notion.site/Chapter-4-word2vec-d8d9f3361eeb4b8f9a5d3f12ded091b7
+(in progress)
