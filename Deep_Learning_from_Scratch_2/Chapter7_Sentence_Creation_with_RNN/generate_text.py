@@ -1,5 +1,6 @@
 import sys
-sys.path.append('/workspace/DL_Study/Deep_Learning_from_Scratch_2/DLfromScratch_2')
+sys.path.append('/workspace/DL_Study/Deep_Learning_from_Scratch_2/\
+DLfromScratch_2')
 from rnnlm_gen import RnnlmGen
 from dataset import ptb
 
@@ -8,7 +9,8 @@ vocab_size = len(word_to_id)
 corpus_size = len(corpus)
 
 model = RnnlmGen()
-model.load_params('/workspace/DL_Study/Deep_Learning_from_Scratch_2/DLfromScratch_2/ch06/Rnnlm.pkl')
+model.load_params('/workspace/DL_Study/Deep_Learning_from_Scratch_2/\
+DLfromScratch_2/ch06/Rnnlm.pkl')
 
 start_word = 'you'
 start_id = word_to_id[start_word]
