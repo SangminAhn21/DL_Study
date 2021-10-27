@@ -1,6 +1,6 @@
 # =============================================================================
 # step23.py부터 step32.py까지는 simple_core를 이용해야 합니다.
-is_simple_core = True  # True
+is_simple_core = False  # True
 # =============================================================================
 
 if is_simple_core:
@@ -38,5 +38,5 @@ else:
     import dezero.utils
     import dezero.cuda
     import dezero.transforms
-
+    
 setup_variable()
