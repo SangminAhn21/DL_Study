@@ -5,12 +5,10 @@ if '__file__' in globals():
 import numpy as np
 from dezero import Variable
 
-x = Variable(np.array(2.0))
-y = x ** 2
-y.backward(create_graph=True)
-gx = x.grad
-x.cleargrad()
+x0 = Variable(np.array([1, 2, 3]))
+x1 = Variable(np.array([10]))
+y = x0 + x1
+print(y)
 
-z = gx ** 3 + y
-z.backward()
-print(x.grad)
+y.backward()
+print(x1.grad)
